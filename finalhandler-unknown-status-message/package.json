@@ -1,0 +1,12 @@
+{
+  "name": "finalhandler-unknown-status-message",
+  "version": "1.0.0",
+  "private": true,
+  "description": "finalhandler in production sends the body \"undefined\" for a status code that has no name, such as 499",
+  "scripts": {
+    "repro": "node src/repro.js"
+  },
+  "dependencies": {
+    "finalhandler": "2.1.1"
+  }
+}

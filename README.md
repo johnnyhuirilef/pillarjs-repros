@@ -12,3 +12,4 @@ fixed.
 
 | Directory | Package | Issue or PR | What it shows |
 |---|---|---|---|
+| [`finalhandler-unknown-status-message`](./finalhandler-unknown-status-message) | `finalhandler` | *(pending)* | In production, an error with a status code that has no name, such as 499 or 460, gets the body `<pre>undefined</pre>` instead of the status code |
